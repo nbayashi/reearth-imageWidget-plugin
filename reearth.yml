@@ -1,0 +1,28 @@
+id: image-widget-exaplugin
+name: Image Widget Plug-in
+version: 1.0.0
+extensions:
+  - id: imgwidget
+    type: widget
+    name:  Image Widget
+    schema:
+      groups:
+        - id: default
+          fields:
+            - id: title
+              type: string
+              title: Title
+            - id: image
+              type: url
+              title: Image
+              ui: image
+            - id: ImageSize
+              type: number
+              title: Image Size(%)
+            - id: ImageOpacity
+              type: number
+              title: Image opacity(%)
+            - id: bgColor
+              type: string
+              title: Background Color
+              ui: color
